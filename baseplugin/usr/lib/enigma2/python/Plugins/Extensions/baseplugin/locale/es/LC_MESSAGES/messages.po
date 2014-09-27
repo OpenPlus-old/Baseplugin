@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BASE PLUGIN 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-22 19:38+0200\n"
+"PO-Revision-Date: 2014-09-22 19:50+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: www.linux-box.es <linux-box@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: Spanish\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/------/baseplugin\n"
+
+#: plugin.py:123
+msgid " Failed to mkdir"
+msgstr "Error al crear carpeta"
+
+#: plugin.py:329
+msgid " Start SoftCam"
+msgstr "Iniciando SoftCam"
+
+#: plugin.py:109
+msgid " stopping"
+msgstr "deteniendo"
+
+#: LBCamEmu.py:127
+#, python-format
+msgid "%s is installed"
+msgstr "%s esta instalado"
+
+#: LBExtra.py:78 LBExtra.py:173
+msgid "-Extra Downloads"
+msgstr "-Descargas Extra"
+
+#: plugin.py:426
+msgid ""
+"Are you sure you want to save this configuration?\n"
+"\n"
+msgstr ""
+"Estás seguro de querer guardar esta configuración?\n"
+"\n"
+
+#: plugin.py:474
+msgid "Base plugin emu panel"
+msgstr "Panel de emus Base Plugin"
+
+#: LBCamEmu.py:106
+msgid "Close"
+msgstr "Cerrar"
+
+#: LBCamEmu.py:93
+msgid "DOWNLOAD FEEDS"
+msgstr "DESCARGA DE PLUGINS"
+
+#: plugin.py:449
+#, python-format
+msgid ""
+"Directory %s does not exist!\n"
+"Please set the correct directorypath!"
+msgstr ""
+"La carpeta %s no existe!\n"
+"Selecciona la carpeta correcta!"
+
+#: plugin.py:187
+msgid "Download"
+msgstr "Descarga"
+
+#: LBExtra.py:186
+msgid "Downloading plugin list, please wait"
+msgstr "Descargando lista de plugins, espere por favor"
+
+#: LBExtra.py:91
+msgid "Downloading plugins groups, please wait"
+msgstr "Descargando grupos de plugins, espere por favor"
+
+#: LBExtra.py:142
+msgid "Error on Download on plugin list!"
+msgstr "Error descargando la lista de plugins!"
+
+#: LBExtra.py:119
+msgid "Error on download of plugings groups!"
+msgstr "Error descargando los grupos de plugins!"
+
+#: LBExtra.py:83 LBExtra.py:178 plugin.py:403
+msgid "Exit"
+msgstr "Salir"
+
+#: plugin.py:186
+msgid "Extra"
+msgstr "Extra"
+
+#: LBCamEmu.py:107
+msgid "Install"
+msgstr "Instalar"
+
+#: LBExtra.py:228
+msgid "Mising compatible skin!"
+msgstr "No se ha encontrado un skin compatible!"
+
+#: plugin.py:404
+msgid "Ok"
+msgstr "Ok"
+
+#: LBExtra.py:146
+msgid "Server data error"
+msgstr "Error de datos en el servidor"
+
+#: plugin.py:416
+msgid "SoftCam config directory"
+msgstr "Carpeta de configuración de la CAM"
+
+#: plugin.py:418
+msgid "SoftCam directory"
+msgstr "Carpeta de la CAM"
+
+#: plugin.py:185
+msgid "Start"
+msgstr "Iniciar"
+
+#: plugin.py:331
+#, python-format
+msgid "Starting %s"
+msgstr "Iniciando %s"
+
+#: plugin.py:184
+msgid "Stop"
+msgstr "Parar"
+
+#: plugin.py:340
+#, python-format
+msgid "Stopping %s"
+msgstr "Deteniendo %s"
+
+#: LBExtra.py:231 LBExtra.py:238
+#, python-format
+msgid "downloading-installing: %s"
+msgstr "Descargando-Instalando: %s"
