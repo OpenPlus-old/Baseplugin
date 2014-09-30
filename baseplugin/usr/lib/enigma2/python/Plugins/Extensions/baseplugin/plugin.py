@@ -503,7 +503,7 @@ def StartCam(reason, **kwargs):
 def Plugins(**kwargs):
 	return [
 	PluginDescriptor(name = plugin,
-		description = _("Base plugin emu panel"),
+		description = plugin_def,
 		where = [ PluginDescriptor.WHERE_PLUGINMENU,
 		PluginDescriptor.WHERE_EXTENSIONSMENU ],
 		icon = "images/softcam.png", fnc = main),
