@@ -68,7 +68,7 @@ class installextra(Screen):
 
     skin = """
     <screen name="installCam" position="center,160" size="1150,500" title="plugin_title">
-    <ePixmap position="715,10" zPosition="1" size="450,700" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/plugin_name/images/fondo10.png" alphatest="blend" transparent="1" />
+    <ePixmap position="715,10" zPosition="1" size="440,480" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/plugin_name/images/fondo10.png" alphatest="blend" transparent="1" />
     <ePixmap name="red" position="20,488" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/plugin_name/images/red.png" transparent="1" alphatest="on" />
     <widget name="key_red" position="20,458" zPosition="2" size="170,30" valign="center" halign="center" font="Regular;22" transparent="1" />
     <widget name="list" position="50,10" size="540,350" scrollbarMode="showOnDemand" />
@@ -161,7 +161,7 @@ class SelectIpk(Screen):
 
     skin = """
     <screen name="installCam" position="center,160" size="1150,500" title="plugin_title">
-    <ePixmap position="715,10" zPosition="1" size="450,700" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/plugin_name/images/fondo10.png" alphatest="blend" transparent="1" />
+    <ePixmap position="715,10" zPosition="1" size="440,480" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/plugin_name/images/fondo10.png" alphatest="blend" transparent="1" />
     <ePixmap name="red" position="20,488" zPosition="1" size="170,2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/plugin_name/images/red.png" transparent="1" alphatest="on" />
     <widget name="key_red" position="20,458" zPosition="2" size="170,30" valign="center" halign="center" font="Regular;22" transparent="1" />
     <widget name="list" position="50,10" size="540,350" scrollbarMode="showOnDemand" />

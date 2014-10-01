@@ -72,7 +72,7 @@ def _(txt):
 class installCam(Screen):
 	skin = """
 <screen name="installCam" position="center,160" size="1150,500" title="plugin_title">
-    <ePixmap position="715,10" zPosition="1" size="450,700" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/plugin_name/images/fondo10.png" alphatest="blend" transparent="1" />
+    <ePixmap position="715,10" zPosition="1" size="440,480" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/plugin_name/images/fondo10.png" alphatest="blend" transparent="1" />
 <widget source="menu" render="Listbox" position="15,10" size="660,450" scrollbarMode="showOnDemand">
 	<convert type="TemplatedMultiContent">
 		{"template": [

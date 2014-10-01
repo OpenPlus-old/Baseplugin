@@ -6,7 +6,7 @@ B=${D}/ipkg.build.$$
 
 pushd ${D} &> /dev/null
 #GITVER=git$(git log -1 --format="%ci" | awk -F" " '{ print $1 }' | tr -d "-")
-GITVER="1.1-rc3"
+GITVER="1.1"
 PKG=${D}/enigma2-plugin-extensions-baseplugin_${GITVER}_all.ipk
 popd &> /dev/null
 

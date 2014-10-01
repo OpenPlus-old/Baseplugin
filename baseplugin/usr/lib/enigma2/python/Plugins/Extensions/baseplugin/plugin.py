@@ -293,15 +293,12 @@ class LBCamManager(Screen):
 			softpng = LoadPixmap(cached=True,
 				path=resolveFilename(SCOPE_PLUGINS,
 				"Extensions/" + plugin + "/images/actcam.png"))
-			#self.list.append(( self.actcam.replace("camemu.", ""), softpng, self.checkcam(self.actcam)))
 			self.list.append(( self.actcam.replace("camemu.", ""), softpng, ""))
 		softpng = LoadPixmap(cached=True,
 			path=resolveFilename(SCOPE_PLUGINS,
 			"Extensions/" + plugin + "/images/defcam.png"))
-#		for line in self.softcamlist.splitlines():
                 for line in os.listdir(config.plugins.baseplugin.camdir.value):
 			if ( line != self.actcam and line != "camemu.None" and line[:7] == 'camemu.' and line[-1:] != '~'):
-				#self.list.append((line.replace("camemu.", ""), softpng, self.checkcam(line)))
 				self.list.append((line.replace("camemu.", ""), softpng, ""))
 		self["list"].setList(self.list)
 
@@ -378,15 +375,10 @@ class LBCamManager(Screen):
 
 	def Starting(self):
 		self.activityTimer.stop()
-		#stopcam(self.actcam)
                 config.plugins.baseplugin.actcam.value = self.camstart
                 config.plugins.baseplugin.save()
                 self.actcam = config.plugins.baseplugin.actcam.value
                 cmd = getcamcmd(config.plugins.baseplugin.actcam.value)
-                #Console().ePopen(cmd)
-                #print plugin_def, "Runing..  ", cmd 
-
-		#self.actcam = self.camstart
 		service = self.session.nav.getCurrentlyPlayingServiceReference()
 		if service:
 			self.session.nav.stopService()
@@ -400,10 +392,7 @@ class LBCamManager(Screen):
 
 	def ok(self):
 		if self.iscam:
-			#if "camemu." + self["list"].getCurrent()[0] != self.actcam:
                         self.start()
-			#else:
-			#	self.restart()
 
 	def cancel(self):
 		if config.plugins.baseplugin.actcam.value != self.actcam:
